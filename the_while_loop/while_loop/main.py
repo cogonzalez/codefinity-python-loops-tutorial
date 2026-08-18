@@ -4,8 +4,9 @@ countries = ['Wales', 'Denmark', 'Belgium', 'Japan', 'South Korea', 'South Afric
 # List to hold the selected countries
 selected = []
 
-while
-
-
+i = 0
+while i < len(countries)//2:
+    selected.append(countries[i])
+    i += 1 
 # Testing
 print('Selected countries:', selected)
